@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+    padding-top: 10px;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-image: url(images/pexels-marek-piwnicki-6898446.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(1000, 1100, 200, -0.52);
+    background-blend-mode: multiply;
+}
+nav{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.hero{
+    padding: 200px;
+    text-align: center;
+}
+.hero h1{
+    font-weight: 700;
+    letter-spacing: 30px;
+    font-size: 70px;
+    font-family: math;
+}
+.hero p{
+    line-height: 60px;
+    letter-spacing: 20px;
+    font-size: 35px;
+    font-family: math;
+    font-weight: 500;
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    width: 60%;
+    
+}
+form{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    padding: 220px 80px;
+    font-weight: 700;
+}
+.details{
+    width: 40%;
+    text-align: end;
+    padding-top: 95px;
+}
+.details img{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+}
+.details h1{
+    padding: 20px 0 0px 0;
+    color: #d80000;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: end;
+}
+.details p{
+    
+color: #d80000;
+    
+font-size: 30px;
+    
+font-weight: 300;
+    
+padding-top: 0;
+    
+letter-spacing: 6px;
+    
+text-align: end;
+}
+.footer-section{
+    background-image: url(images/pexels-marek-piwnicki-6898446.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(1000, 1100, 200, -0.52);
+    background-blend-mode: multiply;    
+}
+.display-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo{
+    padding: 60px 0 40px 70px;
+}
+.logo-pic{
+    width: 250px;
+    height: auto;
+}
+.icon{
+}
+.btn{
+    border: none;
+    padding: 5px 25px 0px 30px;
+    
+}
+.quotes{
+    width: 30%;
+    padding-top: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: cursive;
+}
+.copyright{
+    text-align: end;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+/* mediaquery for mobile */
+/* @media only screen and (max-width: 667px) {
+    .container { 
+      width: 100%;
+   }
+
+
+
+
+
+} */
